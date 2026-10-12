@@ -8,6 +8,7 @@ Manager-requested access went through the review chain to determine necessity. W
 
 | Area | Practice |
 |---|---|
+| Onboarding | All accesses determined based upon least privilege policy and granted within 24 hours. |
 | Individual access — UAC | Determine access needs from the user's job role and duties. |
 | Group access — GAC | Determine group membership from the user's role and the access provided by the group. |
 | Additional access | Route manager requests through the review chain to determine necessity. |
@@ -16,42 +17,17 @@ Manager-requested access went through the review chain to determine necessity. W
 | Quarterly audits | Check for role changes that may not have been communicated and reassess access. |
 | Termination | Enforce removal of all access within 24 hours of termination. |
 
-## 2. Manager-requested access
+## 2. Requested access
 
-| Step | What happened |
+| Step | Process |
 |---|---|
-| Request | A manager identified additional access needed by an employee. |
+| Request | An employee identifies a need and requests a new access through management. |
 | Necessity review | The request went through the review chain to determine whether the access was necessary. |
 | Decision | Access was granted if the review resulted in authorization. |
 | Provisioning | Granted access was provided to the user. |
 | Documentation | The access was documented and added to the user's tracking record. |
 
-### Representative request record
-
-| Field | Entry |
-|---|---|
-| Request reference | — |
-| Employee identifier | — |
-| Current role and duties | — |
-| Requesting manager | — |
-| Requested system or resource | — |
-| Requested permission level | — |
-| Business need | — |
-| Review-chain decision/reference | — |
-| Provisioning date | — |
-| Access record updated | — |
-
-The specific reviewers and approval sequence are not reproduced here.
-
-## 3. Individual access record — UAC
-
-Use one row per access item so the user's permissions and access locations remain identifiable. Access through a group should be distinguishable from access assigned directly.
-
-| User ID | Role | System/resource and location | Permission | Direct/group source | Business need | Decision reference | Status |
-|---|---|---|---|---|---|---|---|
-| — | — | — | — | — | — | — | — |
-
-**Example of the decision basis:** An Operations employee needed customer-data access for their work; the Operations role did not justify firewall access. This illustrates the reasoning, not a finding involving a real employee.
+**Example of User Access:** ManageEngine, Office365, Keycard and door accesses, company-issued technology. An infosec employee requires firewall access, an employee in operations does not.
 
 ## 4. Group access record — GAC
 
@@ -59,11 +35,12 @@ Record group membership separately from the access the group provides.
 
 ### Group permission reference
 
-| Group | Role/duties served | System/resource | Permission provided |
+| Group | Role/duties served | System/resource |
 |---|---|---|---|
-| Operations | Operations responsibilities | To define in a representative example | To define |
-| Audit | Audit responsibilities | To define in a representative example | To define |
-| Information Security | Information Security responsibilities | To define in a representative example | To define |
+| Software Developers | Write, test, and deploy application code | AWS staging, JIRA |
+| QA | Validate code quality and manage testing workflows | TestRail, AWS Testing Environment |
+| Operations & Finance | Payroll, ledgers, financial workflows | NetSuite, WorkDay, Bank Portal |
+|Information Security | Manage firewalls permissions, Azure Groups, and security protocols | ManageEngine, Meraki Firewall, escalation privileges | 
 
 ### User group membership
 
