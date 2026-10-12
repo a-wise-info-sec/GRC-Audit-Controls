@@ -20,7 +20,7 @@ Disclaimer: All projects use **_fictional_** organizations, synthetic data, and 
 
 ### Project 01: Manual User Access Review & Control Assessment
 
-**Scenario:** A precial metal storage and investment company requires an assessment of logical and physical access controls.
+**Scenario:** A precious metals storage and investment company requires an assessment of logical and physical access controls.
 
 **Objective:** Evaluate and determine whether access permissions are appropriate for assigned responsibilities, identify potential control exceptions, and demonstrate audit-ready documentation.
 
