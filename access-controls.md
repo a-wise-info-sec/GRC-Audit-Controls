@@ -36,17 +36,24 @@ Record group membership separately from the access the group provides.
 ### Group permission reference
 
 | Group | Role/duties served | System/resource |
-|---|---|---|---|
+|---|---|---|
 | Software Developers | Write, test, and deploy application code | AWS staging, JIRA |
 | QA | Validate code quality and manage testing workflows | TestRail, AWS Testing Environment |
-| Operations & Finance | Payroll, ledgers, financial workflows | NetSuite, WorkDay, Bank Portal |
-|Information Security | Manage firewalls permissions, Azure Groups, and security protocols | ManageEngine, Meraki Firewall, escalation privileges | 
+| Operations & Finance | Ledgers, financial workflows | NetSuite, WorkDay, Bank Portal |
+| Information Security | Manage firewalls permissions, Azure Groups, and security protocols | ManageEngine, Meraki Firewall, escalation privileges | 
+| Sales | Prospect new business, track sales, log customer correspondence | Salesforce CRM, HubSpot |
+| Human Resources | Oversee global employee data, handle workforce planning, onboarding, termination | Greenhouse ATS, Paylocity |
 
 ### User group membership
 
 | User ID | Current role | Group | Role-based justification | Status |
-|---|---|---|---|---|
-| — | — | — | — | — |
+| SHolmes | Operations Specialist | OPS_2 | Requires customer records and transaction-processing tools to perform daily operational duties | Active |
+| JWatson | Internal Auditor | Audit | Requires read-only access to relevant records and audit evidence to evaluate controls without modifying operational data | Active |
+| HPotter | Iformation Security Analyst |	InfoSec | Requires security monitoring tools and relevant configuration access to perform assigned security duties | Active |
+| DMalfoy | Operations Supervisor	| OPS_1 |	Requires customer records and operational reporting tools to oversee processing and resolve escalations	| Active |
+| RWeasley | HR Specialist | HR_1 | Terminated | Inactive |
+| CChang | Sales Representative| Sales_2	| Requires assigned customer accounts, sales leads, and pricing information to prepare quotes and manage customer relationships |	Active |
+|HGranger | Sales Manager	| Sales_1 | Requires team sales reports and quote-approval tools to oversee sales activity and approve pricing within assigned authority |	Active |
 
 ## 5. Assigned-machine record
 
