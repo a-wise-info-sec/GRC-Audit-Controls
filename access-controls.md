@@ -47,6 +47,7 @@ Record group membership separately from the access the group provides.
 ### User group membership
 
 | User ID | Current role | Group | Role-based justification | Status |
+|---|---|---|---|---|
 | SHolmes | Operations Specialist | OPS_2 | Requires customer records and transaction-processing tools to perform daily operational duties | Active |
 | JWatson | Internal Auditor | Audit | Requires read-only access to relevant records and audit evidence to evaluate controls without modifying operational data | Active |
 | HPotter | Iformation Security Analyst |	InfoSec | Requires security monitoring tools and relevant configuration access to perform assigned security duties | Active |
